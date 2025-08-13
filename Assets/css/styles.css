@@ -3,3 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  --mdb-btn-border-color: none;
+  border-radius: 50%;
+  border: none;
+  width: 50px;
+  height: 50px;
+  display: none;
+  background-color: #c6445a;
+  box-shadow: 0 4px 9px -4px #d1485f;
+  color: #fff;
+  font-size: 16px;
+  size-adjust: auto;
+}
+
+#btn-back-to-top:hover {
+  background-color: #d1485f;
+  cursor: pointer;
+}
