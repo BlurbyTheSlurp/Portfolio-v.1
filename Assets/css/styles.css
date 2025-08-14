@@ -2,17 +2,36 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titan+One&display=swap');
+}
+
+.blob1 {
+    border-radius: 45px 20px 58px 20px / 20px 45px 20px 58px;
+    background-color: #c6445a;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
-h1{
-    font-size: 24px;
+.gradient-overlay h1{
+    color: transparent;
+    background-image: linear-gradient(90deg, rgb(186, 53, 53), rgb(20, 17, 177) 75%);
+    background-clip: text;
+}
+
+.container h1{
+    font-size: 56px;
+    margin-top:20px;
     margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: 'noto sans', sans-serif;
+}
+
+.container p {
+    font-size: 18px;
+    font-family: 'noto sans', sans-serif;
 }
 
 #btn-back-to-top {
